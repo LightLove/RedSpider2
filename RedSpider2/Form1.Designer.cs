@@ -49,6 +49,11 @@
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.学生端ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.电子举手ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.提交作业ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.联机讨论ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -62,6 +67,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button4
@@ -249,6 +255,48 @@
             this.pictureBox13.TabIndex = 26;
             this.pictureBox13.TabStop = false;
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.menuStrip1.Dock = System.Windows.Forms.DockStyle.None;
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.学生端ToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(541, 31);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(65, 25);
+            this.menuStrip1.TabIndex = 27;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // 学生端ToolStripMenuItem
+            // 
+            this.学生端ToolStripMenuItem.BackColor = System.Drawing.Color.RoyalBlue;
+            this.学生端ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.电子举手ToolStripMenuItem,
+            this.提交作业ToolStripMenuItem,
+            this.联机讨论ToolStripMenuItem});
+            this.学生端ToolStripMenuItem.Name = "学生端ToolStripMenuItem";
+            this.学生端ToolStripMenuItem.Size = new System.Drawing.Size(56, 21);
+            this.学生端ToolStripMenuItem.Text = "学生端";
+            // 
+            // 电子举手ToolStripMenuItem
+            // 
+            this.电子举手ToolStripMenuItem.Name = "电子举手ToolStripMenuItem";
+            this.电子举手ToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.电子举手ToolStripMenuItem.Text = "电子举手（H）";
+            // 
+            // 提交作业ToolStripMenuItem
+            // 
+            this.提交作业ToolStripMenuItem.Name = "提交作业ToolStripMenuItem";
+            this.提交作业ToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.提交作业ToolStripMenuItem.Text = "提交作业（F）";
+            // 
+            // 联机讨论ToolStripMenuItem
+            // 
+            this.联机讨论ToolStripMenuItem.Name = "联机讨论ToolStripMenuItem";
+            this.联机讨论ToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.联机讨论ToolStripMenuItem.Text = "联机讨论（N）";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -257,6 +305,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(782, 599);
+            this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.pictureBox13);
             this.Controls.Add(this.pictureBox12);
             this.Controls.Add(this.pictureBox11);
@@ -293,7 +342,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -318,6 +370,11 @@
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.PictureBox pictureBox12;
         private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem 学生端ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 电子举手ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 提交作业ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 联机讨论ToolStripMenuItem;
     }
 }
 
